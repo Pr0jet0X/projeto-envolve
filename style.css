@@ -1,0 +1,116 @@
+:root{
+    --cor-de-fundo: #FFFFFF;
+    --cor-botao: #007931;
+    --preto: #1A1A1A;
+    --cinza-util: #d8d8d8;
+    --verde-util: #00df59;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cabecalho{
+    display: grid;
+    grid-template-columns: 40% 15% 15% 15% 15%;
+    background-color: var(--cor-de-fundo);
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.cabecalho__item{
+    margin-top: 1em;
+}
+
+.cabecalho__botao{
+    align-items: center;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.botao__criar{
+    color: var(--cor-botao);
+    background-color: var(--cor-de-fundo);
+    border: 1px solid var(--cor-botao);
+}
+
+.botao__criar:hover{
+    background-color: var(--cinza-util);
+    color: var(--preto);
+    border: none;
+}
+
+.botao__login{
+    color: var(--cor-de-fundo);
+    background-color: var(--cor-botao); 
+    border: 1px solid var(--preto);   
+}
+
+.botao__login:hover{
+    background-color: var(--verde-util);
+    color: var(--preto);
+    border: none;
+}
+
+.pagina__inicio{
+    padding: 3em;
+    background-color: var(--preto);
+    background-image: url(img/1section.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.principal__titulo{
+    margin: 1em 0 0.5em 0;
+    color: var(--cor-de-fundo);
+    font-size: 60px;
+}
+
+.principal__div{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8em;
+    background-color: rgba(106, 106, 106, 0.75);
+    border-radius: 100px;
+    width: 50em;
+}
+
+.principal__div:hover{
+    background-color: rgba(124, 124, 124, 0.75);
+}
+
+.principal__buscar{
+    border: none;
+    float: left;
+    background-color: transparent;
+    color: var(--cor-de-fundo);
+    margin-top: 0.15em;
+    margin-left: 0.2em;
+    padding-left: 2em;
+    padding-bottom: 0.15em;
+    font-size: 18px;
+    width: 40em;
+    border-radius: 100px;
+}
+
+.explorar__titulo{
+    margin: 2em 0 3em 4em;
+}
+
+.explorar{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.explorar__lista{
+    margin: 0 2em;
+}
+
+.explorar__imagem:hover{
+    size: 120%;
+}
