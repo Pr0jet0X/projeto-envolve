@@ -14,10 +14,11 @@
 
 .cabecalho{
     display: grid;
-    grid-template-columns: 40% 15% 15% 15% 15%;
+    grid-template-columns: 35% 20% 20% 15% 10%;
     background-color: var(--cor-de-fundo);
-    margin-top: 3em;
-    margin-bottom: 2em;
+    margin-top: 0.75em;
+    margin-bottom: 1em;
+    align-items: center;
 }
 
 .cabecalho__item{
@@ -105,6 +106,8 @@
     list-style-type: none;
     display: flex;
     justify-content: center;
+    text-align: center;
+    margin-bottom: 3em;
 }
 
 .explorar__lista{
@@ -112,5 +115,21 @@
 }
 
 .explorar__imagem:hover{
-    size: 120%;
+    width: 12em;
+}
+
+.texto__titulo{
+    background-color: var(--preto);
+    color: var(--cor-de-fundo);
+    text-align: center;
+    padding: 1em 0;
+}
+
+.texto{
+    display: flex;
+}
+
+.texto__texto{
+    margin: 1em 1em;
+    font-size: 20px;
 }
