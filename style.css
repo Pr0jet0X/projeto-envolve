@@ -105,15 +105,18 @@
 }
 
 .explorar{
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 3em;
+    display: table;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 2em;
 }
 
 .explorar__lista{
     margin: 0 2em;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.5em;
 }
 
 .explorar__imagem:hover{
@@ -144,16 +147,22 @@
 }
 
 .apoie__lista{
-    display: flex;
+    display: table;
+    width: 25em;
     list-style-type: none;
-    justify-content: center;
-    text-align: center;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .apoie__item{
-    border: solid var(--preto) 1px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.5em;
+    border: solid var(--cinza-util) 1px;
     margin: 0.5em;
-    padding: 2em 1em;
+    padding: 2em 1.5em;
 }
 
 .apoie__item:hover{
@@ -201,4 +210,29 @@
 
 .final__div_imagem{
     width: 42em;
+}
+
+.rodape{
+    background-color: var(--preto);
+    color: var(--cor-de-fundo);
+}
+
+.rodape__logo{
+    margin: 3em;
+}
+
+.rodape__fim{
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    margin-top: 1em;
+    padding-bottom: 4em;
+}
+
+.rodape__link{
+    margin-left: 2em;
+    margin-top: 0.5em;
+}
+
+.rodape__link:hover{
+    color: var(--cor-botao);
 }
