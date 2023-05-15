@@ -193,7 +193,7 @@
 }
 
 .final__texto{
-    margin: 0 10em;
+    margin: 2em 10em;
     font-size: 20px;
 }
 
@@ -223,7 +223,7 @@
 
 .rodape__fim{
     display: grid;
-    grid-template-columns: 20% 50% 30%;
+    grid-template-columns: 30% 40% 30%;
     margin-top: 1em;
     padding-bottom: 4em;
 }
