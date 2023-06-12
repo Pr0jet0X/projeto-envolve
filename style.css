@@ -80,6 +80,7 @@
     background-color: rgba(106, 106, 106, 0.75);
     border-radius: 100px;
     width: 50em;
+    max-width: 80%;
 }
 
 .principal__div:hover{
@@ -105,15 +106,16 @@
 }
 
 .explorar{
-    display: table;
+    display: flex;
     width: 100%;
     height: 100%;
     margin-bottom: 2em;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .explorar__lista{
-    margin: 0 2em;
-    display: table-cell;
+    list-style-type: none;
     text-align: center;
     vertical-align: middle;
     line-height: 1.5em;
@@ -139,6 +141,10 @@
     font-size: 20px;
 }
 
+.texto__imagem{
+    max-width: 50vw;
+}
+
 .apoie__titulo{
     font-size: 50px;
     margin-top: 0.5em;
@@ -147,22 +153,22 @@
 }
 
 .apoie__lista{
-    display: table;
-    width: 25em;
+    display: flex;
     list-style-type: none;
     margin-top: 2em;
-    margin-left: auto;
-    margin-right: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .apoie__item{
-    display: table-cell;
     text-align: center;
-    vertical-align: middle;
-    line-height: 1.5em;
     border: solid var(--cinza-util) 1px;
-    margin: 0.5em;
-    padding: 2em 1.5em;
+    padding: 2em 1em;
+    max-width: 20%;
+}
+
+.apoie__imagem{
+    max-width: 98%;
 }
 
 .apoie__item:hover{
@@ -175,6 +181,7 @@
     padding: 1em 2em;
     text-decoration: none;
     color: var(--cor-de-fundo);
+    display: inline-block;
 }
 
 .apoie__botao:hover{
@@ -193,7 +200,7 @@
 }
 
 .final__texto{
-    margin: 2em 10em;
+    margin: 2em 10%;
     font-size: 20px;
 }
 
@@ -235,4 +242,17 @@
 
 .rodape__link:hover{
     color: var(--cor-botao);
+}
+
+.rodape__email{
+    margin-top: 2em;
+    background-color: transparent;   
+    border: 0px;
+    border-bottom: 1px solid var(--cor-de-fundo); 
+    border-radius: -1px;
+    color: var(--cor-de-fundo);
+}
+
+.rodape__email-imagem{
+    margin: -5px;
 }
