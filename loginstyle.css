@@ -1,3 +1,24 @@
-.pagina__login{
+.centro{
+    display: flex;
+    justify-content: space-around;
+}
 
+.pagina__login{
+    margin-top: 20vh;
+    font-family: 'Open Sans', sans-serif;
+    color: #007931;
+}
+
+.logo{
+    margin: 2em;
+}
+
+.botão__google{
+    padding: 1em;
+    color: #000000;
+    text-decoration: none;
+    margin: 1em;
+    border: solid 2px #007931;
+    display: flex;
+    text-align: center;
 }

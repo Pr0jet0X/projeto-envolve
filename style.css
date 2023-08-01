@@ -122,9 +122,26 @@
     line-height: 1.5em;
 }
 
-.explorar__imagem:hover{
-    width: 12em;
-}
+.wrapper {
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 6px solid #fff; 
+    }
+    
+    .wrapper img{
+    height: 100%;
+    width: 100%;
+    filter: grayscale (100%);
+    transition: 0.5s ease;
+    cursor: pointer;
+    }
+    
+    .wrapper img:hover {
+    transform: scale(1.3);
+    filter: grayscale (0%);
+    }
 
 .texto__titulo{
     background-color: var(--preto);
