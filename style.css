@@ -157,6 +157,7 @@
 .texto__texto{
     margin: 1em 1em;
     font-size: 20px;
+    text-align: justify;
 }
 
 .texto__imagem{
@@ -220,6 +221,7 @@
 .final__texto{
     margin: 2em 10%;
     font-size: 20px;
+    text-align: center;
 }
 
 .final__mensagem{

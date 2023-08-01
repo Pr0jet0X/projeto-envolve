@@ -4,21 +4,47 @@
 }
 
 .pagina__login{
-    margin-top: 20vh;
     font-family: 'Open Sans', sans-serif;
     color: #007931;
+    font-weight: 400;
 }
 
 .logo{
-    margin: 2em;
+    margin: 1.5em;
+}
+
+.botão__continuar{
+    background-color: #007931;
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    width: 18em;
+    display: block;
+    text-align: center;
+    margin-top: 2em;
 }
 
 .botão__google{
     padding: 1em;
     color: #000000;
     text-decoration: none;
-    margin: 1em;
-    border: solid 2px #007931;
+    margin: 0.3em;
+    border: solid 1px #007931;
     display: flex;
-    text-align: center;
+    width: 20em;
+}
+
+.botão__imagem{
+    margin-right: 0.5em;
+}
+
+.input{
+    padding: 1em 2em;
+    border: 1px solid #007931;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 20em;
+}
+
+.input__div{
+    margin: 1em;
 }
