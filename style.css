@@ -19,11 +19,11 @@
     margin-top: 0.75em;
     margin-bottom: 1em;
     align-items: center;
+    text-align: left;
 }
 
 .cabecalho__item{
     margin-top: 1em;
-    text-align: left;
 }
 
 .cabecalho__botao{
