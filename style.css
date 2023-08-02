@@ -14,7 +14,7 @@
 
 .cabecalho{
     display: grid;
-    grid-template-columns: 35% 20% 20% 15% 10%;
+    grid-template-columns: 35% 45% 20%;
     background-color: var(--cor-de-fundo);
     margin-top: 0.75em;
     margin-bottom: 1em;
